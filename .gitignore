@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+data/reports/*.csv
+data/reports/*.json
+temp/
+*.mp4
+*.avi
+*.wav
+*.mp3
+.DS_Store
+Thumbs.db
+.vscode/
+
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
