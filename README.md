@@ -125,7 +125,7 @@ flowchart TD
 | Component | Library / Framework | Version | Purpose |
 |---|---|---|---|
 | **Language** | Python | 3.9 - 3.13 | Core runtime environment |
-| **Computer Vision** | OpenCV (`opencv-python`) | $\ge 4.9.0$ | Video I/O, Haar cascade fallback, visual overlays |
+| **Computer Vision** | OpenCV (`opencv-python-headless`) | $\ge 4.9.0$ | Video I/O, Haar cascade fallback, visual overlays |
 | **Face Detection** | MediaPipe | $\ge 0.10.14$ | ML-based face detection in classroom frames |
 | **Audio Processing** | Librosa / SoundFile / Scipy | Standard | Audio extraction, 16 kHz resampling, RMS dB, VAD |
 | **Data Processing** | NumPy & Pandas | Latest | Array mathematics, timeline alignment, DataFrames |
